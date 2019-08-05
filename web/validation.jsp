@@ -18,8 +18,8 @@
 <%
     try
     {
-        String name = request.getParameter("username");
-        String passcode = request.getParameter("password");
+        String name = request.getParameter("name");
+        String passcode = request.getParameter("pass");
         String database = "fashion_db";
         String query = "SELECT Passcode, Email FROM user";
 
